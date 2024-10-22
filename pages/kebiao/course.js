@@ -67,5 +67,23 @@ Page({
 
   },
 
+  goHome() {
+    wx.navigateTo({
+      url: '/pages/zhuye/zhuye' // 跳转到首页
+    });
+  },
+
+  goCustomerService() {
+    wx.navigateTo({
+      url: '/pages/kebiao/course' // 跳转到客服页面
+    });
+  },
+
+  goMyPage() {
+    wx.navigateTo({
+      url: '/pages/user/setting' // 跳转到我的页面
+    });
+  }
+
   
 })

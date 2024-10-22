@@ -1,83 +1,86 @@
-<view  class="flex1   response  flex flex-wrap justify-start  " style="">
-        <view  class="flex2   response  flex flex-wrap justify-start  " style="">
-        <view  class="flex3    flex flex-wrap justify-start  " style="">
-        <image  class=" radius  cu-avatar  lg  "  src="{{bgpic4}}"></image>
+<view class="flex1 response flex flex-wrap justify-start" style="">
+    <view class="flex2 response flex flex-wrap justify-start">
+        <view class="flex3 flex flex-wrap justify-start">
+            <image class="radius cu-avatar lg" src="{{bgpic4}}"></image>
         </view>
-        <view  class="flex5    flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
-        <text   class="text6  ">Hello，啄木鸟</text>
-        <text   class="text7  ">已减排22.2g ></text>
+        <view class="flex5 flex flex-wrap justify-start" style="flex-direction: column;align-items: flex-start;">
+            <text class="text6">Hello，啄木鸟</text>
+            <text class="text7">已减排22.2g ></text>
         </view>
+    </view>
+    <view class="flex8 response flex flex-wrap justify-start" style="height:160rpx;min-height:unset;">
+        <view class="flex9 flex-sub flex justify-start" style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
+            <text class="text10 text-bold">8</text>
+            <text class="text-gray text-df">优惠券</text>
         </view>
-        <view  class="flex8   response  flex flex-wrap justify-start  " style="height:160rpx;min-height:unset;">
-        <view  class="flex9  flex-sub   flex  justify-start  " style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
-        <text   class="text10  text-bold ">8</text>
-        <text   class=" text-gray text-df ">优惠券</text>
+        <view class="flex12 flex-sub flex justify-start" style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
+            <text class="text13 text-bold">0</text>
+            <text class="text-gray text-df">权益卡</text>
         </view>
-        <view  class="flex12  flex-sub   flex  justify-start  " style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
-        <text   class="text13  text-bold ">0</text>
-        <text   class=" text-gray text-df ">权益卡</text>
+        <view class="flex15 flex-sub flex justify-start" style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
+            <text class="text16 text-bold">4</text>
+            <text class="text-gray text-df">保修卡</text>
         </view>
-        <view  class="flex15  flex-sub   flex  justify-start  " style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
-        <text   class="text16  text-bold ">4</text>
-        <text   class=" text-gray text-df ">保修卡</text>
+        <view class="flex18 flex-sub flex justify-start" style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
+            <text class="text19 text-bold">11</text>
+            <text class="text-gray text-df">收据</text>
         </view>
-        <view  class="flex18  flex-sub   flex  justify-start  " style="flex-direction: column;align-items: center;height:140rpx;min-height:unset;">
-        <text   class="text19  text-bold ">11</text>
-        <text   class=" text-gray text-df ">收据</text>
-        </view>
-        </view>
-        </view>
-        <view  class="flex21   response  flex flex-wrap justify-center  " style="">
-        <view  class="flex22  padding-sm   flex flex-wrap justify-between  " style="align-items: center;">
-        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
-        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
-        <image  class="  cu-avatar  sm round "  src="{{bgpic25}}"></image>
-        <text   class="text26  text-lg ">跨年送好礼</text>
-        </view>
-        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
-        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
-        </view>
-        </view>
-        <button    class="onebutton29  round cu-btn round bg-gray"> 立即参与</button>
-        </view>
-        </view>
-        <view class="dibubtn30   "   style="position: fixed;bottom: 0px;z-index: 345;width: 100%;border-bottom: 2rpx solid #eee;" >
-        <view class="cu-bar tabbar ">
-        <view class="action" bindtap="goclick30"   wx:for="{{data30List}}" wx:key="item">
-        <view class="cuIcon-cu-image">
-        <image wx:if="{{item.imgtype !=2}}" src="{{item.pic}}" class="" style="width: 50rpx;height:50rpx;"></image>
-        <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}"   style="font-size: 60rpx;margin-top: 0rpx;" ></view>
-        </view>
-        <view>{{item.name}}</view>
-        </view>
-        </view>
-        </view>
-        <view  class="flex31  bg-white margin-top  response  flex flex-wrap justify-start  " style="align-items: flex-start;">
-        <view class=" tuwen32 response   ">
-        <view class="cu-list menu-avatar  menu flex justify-start  flex-wrap "  style="display: flex">
-        <view class="cu-item arrow"    wx:for="{{data32List}}" wx:key="item"  style="background-color:unset;justify-content: end; width:100%;height:80rpx;">
-        <image wx:if="{{item.imgtype !=2}}" class="cu-avatar  sm" src="{{item.pic}}" ></image>
-        <view wx:if="{{item.imgtype ==2}}"  class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}"   style="font-size: 70rpx;margin-top: 0rpx;" ></view>
-        <view class="content" style="width:auto;left:110rpx;">
-        <view class="text-black">
-         <view class="text-cut">{{item.name}}</view>
-        </view>
-        <view class="text-gray text-sm flex">
-        <view class="text-cut ">{{item.desc}}
-        </view> </view>
-        </view>
-        </view>
-        </view>
-        </view>
-        </view>
-<view class="dibubtn1   " style="position: fixed;bottom: 0px;z-index: 345;width: 100%;border-bottom: 2rpx solid #eee;">
-    <view class="cu-bar tabbar ">
-        <view class="action" bindtap="goclick1" wx:for="{{data3List}}" wx:key="item">
-            <view class="cuIcon-cu-image">
-                <image wx:if="{{item.imgtype !=2}}" src="{{item.pic}}" class="" style="width: 50rpx;height:50rpx;"></image>
-                <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}" style="font-size: 60rpx;margin-top: 0rpx;"></view>
+    </view>
+    <view class="flex21 response flex flex-wrap justify-center">
+        <view class="flex22 padding-sm flex flex-wrap justify-between" style="align-items: center;">
+            <view class="flex flex-wrap justify-start" style="flex-direction: column;align-items: flex-start;">
+                <view class="flex flex-wrap justify-start" style="align-items: center;">
+                    <image class="cu-avatar sm round" src="{{bgpic25}}"></image>
+                    <text class="text26 text-lg">跨年送好礼</text>
+                </view>
+                <view class="flex flex-wrap justify-start" style="align-items: center;">
+                    <text class="text-gray text-sm">年卡限时4.6折，仅需108元</text>
+                </view>
             </view>
-            <view>{{item.name}}</view>
+            <button class="onebutton29 round cu-btn round bg-gray">立即参与</button>
+        </view>
+    </view>
+
+    <!-- 底部导航 -->
+    <view class="dibubtn1" style="position: fixed; bottom: 0px; z-index: 345; width: 100%; border-bottom: 2rpx solid #eee;">
+        <view class="cu-bar tabbar">
+            <view class="action" bindtap="goHome">
+                <view class="cuIcon-cu-image">
+                    <image src="../../images/touxiang/home.png" style="width: 50rpx; height: 50rpx;"></image>
+                </view>
+                <view>首页</view>
+            </view>
+            <view class="action" bindtap="goCustomerService">
+                <view class="cuIcon-cu-image">
+                    <image src="../../images/touxiang/kefu.png" style="width: 50rpx; height: 50rpx;"></image>
+                </view>
+                <view>客服</view>
+            </view>
+            <view class="action" bindtap="goMyPage">
+                <view class="cuIcon-cu-image">
+                    <image src="../../images/touxiang/more.png" style="width: 50rpx; height: 50rpx;"></image>
+                </view>
+                <view>我的</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="flex31 bg-white margin-top response flex flex-wrap justify-start" style="align-items: flex-start;">
+        <view class="tuwen32 response">
+            <view class="cu-list menu-avatar menu flex justify-start flex-wrap" style="display: flex">
+                <view class="cu-item arrow" wx:for="{{data32List}}" wx:key="item" style="background-color:unset;justify-content: end; width:100%;height:80rpx;">
+                    <image wx:if="{{item.imgtype !=2}}" class="cu-avatar sm" src="{{item.pic}}"></image>
+                    <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}" style="font-size: 70rpx;margin-top: 0rpx;"></view>
+                    <view class="content" style="width:auto;left:110rpx;">
+                        <view class="text-black">
+                            <view class="text-cut">{{item.name}}</view>
+                        </view>
+                        <view class="text-gray text-sm flex">
+                            <view class="text-cut">{{item.desc}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
         </view>
     </view>
 </view>

@@ -1,5 +1,4 @@
-	
-	/**本页全局配置的代码**/
+/**本页全局配置的代码**/
 .pageconfig 
 {
 		width:  100%;
@@ -87,4 +86,32 @@ height: 100vh;}.flex1
 {
 		width: 89%;
 		margin-left: 12rpx;
+}
+
+.dibubtn1 {
+    position: fixed;
+    bottom: 0;
+    z-index: 345;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1rpx solid #eee;
+}
+
+.cu-bar.tabbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0; /* 确保没有多余的 margin */
+    padding: 0; /* 确保没有多余的 padding */
+}
+
+.action {
+    flex: 1;
+    text-align: center;
+}
+
+.cuIcon-cu-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

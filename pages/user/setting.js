@@ -76,14 +76,22 @@ Page({
 
   },
 
-  goclick32(e) {
-    const index = e.currentTarget.dataset.index; // 获取点击的索引
-    const url = this.data.data3List[index].url; // 获取对应的 URL
-    if (url) {
-      wx.navigateTo({
-        url: url // 跳转到指定页面
-      });
-    }
+  goHome() {
+    wx.navigateTo({
+      url: '/pages/zhuye/zhuye' // 跳转到首页
+    });
+  },
+
+  goCustomerService() {
+    wx.navigateTo({
+      url: '/pages/kebiao/course' // 跳转到客服页面
+    });
+  },
+
+  goMyPage() {
+    wx.navigateTo({
+      url: '/pages/user/setting' // 跳转到我的页面
+    });
   }
 
 })

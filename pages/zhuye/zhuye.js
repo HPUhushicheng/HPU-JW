@@ -2,7 +2,7 @@ const app = getApp();
 Page({
   gopage(){
     wx.navigateTo({
-      url: '/pages/user/setting',
+      url: '/pages/rukou/rukou',
     })
   },
 
