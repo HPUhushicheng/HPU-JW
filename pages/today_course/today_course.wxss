@@ -1,0 +1,104 @@
+	
+	/**本页全局配置的代码**/
+.pageconfig 
+{
+		width:  100%;
+		overflow:  hidden;
+		overflow-y:  scroll;
+		background-color: #ffffff;
+		background-position: center bottom;
+		background-size: cover;
+height: 100vh;}.flex1  
+{
+		width: 100%;
+		height: 0rpx;
+}.flex2  
+{
+		width: 100%;
+		height: 200rpx;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text6  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton9  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.flex10  
+{
+		width: 100%;
+		height: 200rpx;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text14  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton17  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.flex18  
+{
+		width: 100%;
+		height: 200rpx;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text22  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton25  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.flex26  
+{
+		width: 100%;
+		height: 200rpx;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text30  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton33  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.flex34  
+{
+		width: 100%;
+		height: 200rpx;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text38  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton41  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.dibubtn42 
+{
+		width: 100%;
+		background-color: #ffffff;
+}

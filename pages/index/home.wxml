@@ -1,0 +1,47 @@
+<view  class="flex1   response  flex flex-wrap justify-center  " style="">
+        <form bindsubmit="dosubmit"  bindreset="formReset" class="  flex flex-wrap form2   " style="display: block;width:initial;">
+        <view  class="flex3   response  flex flex-wrap justify-start  " style="">
+        <view  class="flex4   response  flex flex-wrap justify-center  " style="">
+        <image   mode="widthFix"     class="picture5 round  round" style="width:160rpx;height:160rpx;min-height:unset;"  src="{{picsrc5}}"></image>
+        <view  class="flex6   response  flex flex-wrap justify-center  " style="">
+        <text   class="text7  text-lg text-bold ">会员登录</text>
+        </view>
+        </view>
+        <view  class="flex8   response  flex flex-wrap justify-start  " style="flex-direction: row;align-items: center;">
+        <view    class="tubiao9  cuIcon-my text-gray" style="font-size: 40rpx;" ></view>
+        <view class="input10   ">
+        <view  class="cu-form-group " style="background-color:unset;">
+        <input type="text" style="color:#777;" class="text-left  " placeholder="帐号/手机"  name="username"  v-model="username"></input>
+        </view>
+        </view>
+        </view>
+        <view  class="flex11   response  flex  justify-start  " style="flex-direction: row;align-items: center;">
+        <view    class="tubiao12  cuIcon-lock text-gray" style="font-size: 40rpx;" ></view>
+        <view class="input13   ">
+        <view  class="cu-form-group " style="background-color:unset;">
+        <input type="password" style="color:#777;" class="text-left  " placeholder="请输入密码"  name="password"  v-model="password"></input>
+        </view>
+        </view>
+        <text   class="text14  text-gray ">|</text>
+        <text   class="text15  text-gray ">忘记密码？</text>
+        </view>
+        <view  class="flex16   response  flex  justify-start  " style="">
+        <view    class=" cuIcon-round text-gray" style="font-size: 36rpx;" ></view>
+        <view    class="tubiao18  cuIcon-roundcheckfill text-red" style="font-size: 36rpx;" ></view>
+        <view    class="tubiao19  cuIcon-roundcheckfill " style="font-size: 36rpx;" ></view>
+        <view  class="flex20    flex flex-wrap justify-start  " style="">
+        <view  class="flex21   response  flex  justify-start  " style="">
+        <view  class="flex22    flex flex-wrap justify-start  " style="">
+        <text   class=" ">我已阅读并同意</text>
+        <text   class="text24  ">《用户服务协议》</text>
+        <text   class=" ">和</text>
+        <text   class="text26  ">《隐私政策》</text>
+        </view>
+        </view>
+        </view>
+        </view>
+        <button    class="onebutton27  round cu-btn lg round bg-gradual-orange"> 登录</button>
+        </view>
+        	</form>
+        </view>
+        

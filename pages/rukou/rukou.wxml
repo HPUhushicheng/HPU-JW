@@ -1,0 +1,135 @@
+<view class="flex1   response  flex  justify-start  " style="align-items: flex-start;">
+    <view class="notice2   ">
+        <view class="flex justify-betwee align-center" style="color: rgb(222, 140, 23);  background-color: #fffbe8; width: 100%;height: 60rpx;">
+            <text class="cuIcon-notification text-grey margin-lr-sm" style="font-size: 36rpx;color: #603EBC"></text>
+            <view class="flex-sub">
+                <swiper style="height: 60rpx;line-height: 60rpx;" :autoplay="true" :interval="5000" :duration="1000" :vertical="true" :circular="true">
+                    <swiper-item v-for="(item,index) in label2List">
+                        <view class="swiper_tips_child_right_text">{{item.name}}</view>
+                    </swiper-item>
+                </swiper>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="morebox3  padding-sm  response   " style="height:900rpx;min-height:unset;">
+    <view class="flex4  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text5  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex7  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture10  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc10}}"></image>
+    </view>
+    <view class="flex11  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text12  text-df text-bold ">请假管理</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex14  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture17  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc17}}"></image>
+    </view>
+    <view class="flex18  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text19  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex21  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture24  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc24}}"></image>
+    </view>
+    <view class="flex25  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text26  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex28  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture31  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc31}}"></image>
+    </view>
+    <view class="flex32  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text33  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex35  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture38  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc38}}"></image>
+    </view>
+    <view class="flex39  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text40  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex42  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture45  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc45}}"></image>
+    </view>
+    <view class="flex46  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text47  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex49  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture52  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc52}}"></image>
+    </view>
+    <view class="flex53  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text54  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex56  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture59  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc59}}"></image>
+    </view>
+    <view class="flex60  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text61  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex63  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture66  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc66}}"></image>
+    </view>
+    <view class="flex67  radius padding-sm  response  flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <text class="text68  text-df text-bold ">在线订餐</text>
+        <view class="   flex  justify-start  " style="flex-direction: column;align-items: flex-start;">
+            <view class="flex70  round   flex  justify-start  " style="align-items: center;">
+                <text class=" ">GO</text>
+                <view class=" cuIcon-right " style="font-size: 24rpx;"></view>
+            </view>
+        </view>
+        <image mode="widthFix" class="picture73  " style="width:102rpx;height:102rpx;min-height:unset;" src="{{picsrc73}}"></image>
+    </view>
+</view>
+<view class="flex31  bg-white margin-top  response  flex flex-wrap justify-start  " style="align-items: flex-start;">
+    <view class=" tuwen32 response   ">
+        <view class="cu-list menu-avatar  menu flex justify-start  flex-wrap " style="display: flex">
+            <view class="cu-item arrow" wx:for="{{data32List}}" wx:key="item" style="background-color:unset;justify-content: end; width:100%;height:80rpx;">
+                <image wx:if="{{item.imgtype !=2}}" class="cu-avatar  sm" src="{{item.pic}}"></image>
+                <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}" style="font-size: 70rpx;margin-top: 0rpx;"></view>
+                <view class="content" style="width:auto;left:110rpx;">
+                    <view class="text-black">
+                        <view class="text-cut">{{item.name}}</view>
+                    </view>
+                    <view class="text-gray text-sm flex">
+                        <view class="text-cut ">{{item.desc}}
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

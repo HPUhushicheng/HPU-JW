@@ -1,0 +1,74 @@
+<view  class="flex1   response  flex flex-wrap justify-center  " style="height:0rpx;min-height:unset;">
+        <view  class="flex2  padding-sm  response  flex flex-wrap justify-between  " style="align-items: center;height:200rpx;min-height:unset;">
+        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <image  class="  cu-avatar  sm round "  src="{{bgpic5}}"></image>
+        <text   class="text6  text-lg ">跨年送好礼</text>
+        </view>
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
+        </view>
+        </view>
+        <button    class="onebutton9  round cu-btn round bg-gray"> 立即参与</button>
+        </view>
+        <view  class="flex10  padding-sm  response  flex flex-wrap justify-between  " style="align-items: center;height:200rpx;min-height:unset;">
+        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <image  class="  cu-avatar  sm round "  src="{{bgpic13}}"></image>
+        <text   class="text14  text-lg ">跨年送好礼</text>
+        </view>
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
+        </view>
+        </view>
+        <button    class="onebutton17  round cu-btn round bg-gray"> 立即参与</button>
+        </view>
+        <view  class="flex18  padding-sm  response  flex flex-wrap justify-between  " style="align-items: center;height:200rpx;min-height:unset;">
+        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <image  class="  cu-avatar  sm round "  src="{{bgpic21}}"></image>
+        <text   class="text22  text-lg ">跨年送好礼</text>
+        </view>
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
+        </view>
+        </view>
+        <button    class="onebutton25  round cu-btn round bg-gray"> 立即参与</button>
+        </view>
+        <view  class="flex26  padding-sm  response  flex flex-wrap justify-between  " style="align-items: center;height:200rpx;min-height:unset;">
+        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <image  class="  cu-avatar  sm round "  src="{{bgpic29}}"></image>
+        <text   class="text30  text-lg ">跨年送好礼</text>
+        </view>
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
+        </view>
+        </view>
+        <button    class="onebutton33  round cu-btn round bg-gray"> 立即参与</button>
+        </view>
+        <view  class="flex34  padding-sm  response  flex flex-wrap justify-between  " style="align-items: center;height:200rpx;min-height:unset;">
+        <view  class="   flex flex-wrap justify-start  " style="flex-direction: column;align-items: flex-start;">
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <image  class="  cu-avatar  sm round "  src="{{bgpic37}}"></image>
+        <text   class="text38  text-lg ">跨年送好礼</text>
+        </view>
+        <view  class="   flex flex-wrap justify-start  " style="align-items: center;">
+        <text   class=" text-gray text-sm ">年卡限时4.6折，仅需108元 </text>
+        </view>
+        </view>
+        <button    class="onebutton41  round cu-btn round bg-gray"> 立即参与</button>
+        </view>
+        </view>
+        <view class="dibubtn42   "   style="position: fixed;bottom: 0px;z-index: 345;width: 100%;border-bottom: 2rpx solid #eee;" >
+        <view class="cu-bar tabbar ">
+        <view class="action" bindtap="goclick42"   wx:for="{{data42List}}" wx:key="item">
+        <view class="cuIcon-cu-image">
+        <image wx:if="{{item.imgtype !=2}}" src="{{item.pic}}" class="" style="width: 50rpx;height:50rpx;"></image>
+        <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}"   style="font-size: 60rpx;margin-top: 0rpx;" ></view>
+        </view>
+        <view>{{item.name}}</view>
+        </view>
+        </view>
+        </view>
+        

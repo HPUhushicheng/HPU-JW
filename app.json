@@ -1,0 +1,13 @@
+{
+	"pages": [
+		 "pages/zhuye/zhuye","pages/kebiao/course","pages/today_course/today_course","pages/index/home","pages/user/setting","pages/rukou/rukou"
+	],
+	"globalStyle": {
+
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "demo_uniapp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	}
+
+}

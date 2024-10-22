@@ -1,0 +1,58 @@
+<view  class="flex1  padding-xs  response animation-slide-bottom flex flex-wrap justify-start  " style="">
+        <view  class="flex2  bg-white padding-xs  response  flex flex-wrap justify-start  " style="">
+        <view  class="flex3  padding-xs  response  flex flex-wrap justify-center  " style="">
+        <text   class="text4  text-center text-xl ">常见问题</text>
+        </view>
+        <view  class="flex5  margin-top-xs padding-xs  response  flex flex-wrap justify-start  " style="">
+        <view  class="flex6  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-blue"> 问</button>
+        <text   class="text8  text-lg ">填写学号和密码，点击请求无数据显示？</text>
+        </view>
+        <view  class="flex9  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-orange"> 答</button>
+        <text   class="text11  text-gray ">检查学号和密码是否填写正确，99%是由于学号和密码填写错误。</text>
+        </view>
+        </view>
+        <view  class="flex12  margin-top-xs padding-xs  response  flex flex-wrap justify-start  " style="">
+        <view  class="flex13  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-blue"> 问</button>
+        <text   class="text15  text-lg ">是否涉及隐私泄露？</text>
+        </view>
+        <view  class="flex16  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-orange"> 答</button>
+        <text   class="text18  text-gray text-df ">上传的数据全存放在数据库中，除了作者本人无任何人有访问权限，请放心，作者只是为了给友友们提供更加便捷的查询方式，避免高峰期无法打开和查看教务系统。如果无法接受，注销账号即可。</text>
+        </view>
+        </view>
+        <view  class="flex19  margin-top-xs padding-xs  response  flex flex-wrap justify-start  " style="">
+        <view  class="flex20  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-blue"> 问</button>
+        <text   class="text22  text-lg ">出现问题无法解决？</text>
+        </view>
+        <view  class="flex23  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-orange"> 答</button>
+        <text   class="text25  text-gray text-df ">询问客服即可，我们会尽全力解决。</text>
+        </view>
+        </view>
+        <view  class="flex26  margin-top-xs padding-xs  response  flex flex-wrap justify-start  " style="">
+        <view  class="flex27  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-blue"> 问</button>
+        <text   class="text29  text-lg ">有更好的想法，可以联系客服进行开发，我们随时欢迎</text>
+        </view>
+        <view  class="flex30  margin-tb-xs  response  flex flex-wrap justify-start  " style="align-items: center;">
+        <button    class=" cu-btn sm bg-orange"> 答</button>
+        <text   class="text32  text-gray text-df ">欢迎你的建议与贡献！</text>
+        </view>
+        </view>
+        </view>
+        </view>
+        <view class="dibubtn32   " style="position: fixed;bottom: 0px;z-index: 345;width: 100%;border-bottom: 2rpx solid #eee;">
+    <view class="cu-bar tabbar ">
+        <view class="action" bindtap="goclick32" wx:for="{{data3List}}" wx:key="item">
+            <view class="cuIcon-cu-image">
+                <image wx:if="{{item.imgtype !=2}}" src="{{item.pic}}" class="" style="width: 50rpx;height:50rpx;"></image>
+                <view wx:if="{{item.imgtype ==2}}" class="{{'' + item.iconname+' '+'text-' + item.iconcolor}}" style="font-size: 60rpx;margin-top: 0rpx;"></view>
+            </view>
+            <view>{{item.name}}</view>
+        </view>
+    </view>
+</view>    

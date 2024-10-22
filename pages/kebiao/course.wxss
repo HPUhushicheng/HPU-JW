@@ -1,0 +1,90 @@
+	
+	/**本页全局配置的代码**/
+.pageconfig 
+{
+		width:  100%;
+		overflow:  hidden;
+		overflow-y:  scroll;
+height: 100vh;}.flex1  
+{
+		width: 100%;
+}.flex2  
+{
+		width: 100%;
+}.flex3  
+{
+		width: 100%;
+}.text4  
+{
+		text-align: center;
+		font-weight: 700;
+}.flex5  
+{
+		width: 100%;
+}.flex6  
+{
+		width: 100%;
+}.text8  
+{
+		margin-left: 12rpx;
+		font-weight: 700;
+}.flex9  
+{
+		width: 100%;
+}.text11  
+{
+		width: 89%;
+		margin-left: 12rpx;
+}.flex12  
+{
+		width: 100%;
+}.flex13  
+{
+		width: 100%;
+}.text15  
+{
+		margin-left: 12rpx;
+		font-weight: 700;
+}.flex16  
+{
+		width: 100%;
+}.text18  
+{
+		width: 89%;
+		margin-left: 12rpx;
+}.flex19  
+{
+		width: 100%;
+}.flex20  
+{
+		width: 100%;
+}.text22  
+{
+		margin-left: 12rpx;
+		font-weight: 700;
+}.flex23  
+{
+		width: 100%;
+}.text25  
+{
+		width: 89%;
+		margin-left: 12rpx;
+}.flex26  
+{
+		width: 100%;
+}.flex27  
+{
+		width: 100%;
+}.text29  
+{
+		width: 89%;
+		margin-left: 12rpx;
+		font-weight: 700;
+}.flex30  
+{
+		width: 100%;
+}.text32  
+{
+		width: 89%;
+		margin-left: 12rpx;
+}

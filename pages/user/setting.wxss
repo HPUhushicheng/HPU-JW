@@ -1,0 +1,169 @@
+	
+	/**本页全局配置的代码**/
+.pageconfig 
+{
+		width:  100%;
+		overflow:  hidden;
+		overflow-y:  scroll;
+		background-color: #ffffff;
+		background-position: center bottom;
+		background-size: cover;
+height: 100vh;}.flex1  
+{
+		width: 100%;
+		background-color: #ffffff;
+		position: relative;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.flex2  
+{
+		width: 100%;
+		position: relative;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.flex3  
+{
+		position: relative;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.flex5  
+{
+		position: relative;
+}.text6  
+{
+		font-size: 40rpx;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+}.text7  
+{
+		font-size: 18rpx;
+		color: #3eb93b;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+		border: 4rpx solid #3eb93b;
+}.flex8  
+{
+		width: 100%;
+		height: 160rpx;
+		font-size: 26rpx;
+		background-color: #ffffff;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.flex9  
+{
+		width: 20%;
+		height: 140rpx;
+		font-size: 26rpx;
+		flex:1;
+		background-color: #ffffff;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.text10  
+{
+		font-size: 40rpx;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+}.flex12  
+{
+		width: 20%;
+		height: 140rpx;
+		font-size: 26rpx;
+		flex:1;
+		background-color: #ffffff;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.text13  
+{
+		font-size: 40rpx;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+}.flex15  
+{
+		width: 20%;
+		height: 140rpx;
+		font-size: 26rpx;
+		flex:1;
+		background-color: #ffffff;
+		position: relative;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.text16  
+{
+		font-size: 40rpx;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+}.flex18  
+{
+		width: 20%;
+		height: 140rpx;
+		font-size: 26rpx;
+		flex:1;
+		background-color: #ffffff;
+		position: relative;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.text19  
+{
+		font-size: 40rpx;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+}.flex21  
+{
+		width: 100%;
+}.flex22  
+{
+		width: 91%;
+		background-color: #ffecf0;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		border-bottom-left-radius: 20rpx;
+}.text26  
+{
+		color: #ff689b;
+		font-weight: 700;
+}.onebutton29  
+{
+		color: #ffffff;
+		background-color: #ff689b;
+}.dibubtn30 
+{
+		width: 100%;
+		background-color: #ffffff;
+}.flex31  
+{
+		width: 100%;
+}.tuwen32 
+{
+		width: 100%;
+}	.dibubtn1 {
+  width: 100%;
+}

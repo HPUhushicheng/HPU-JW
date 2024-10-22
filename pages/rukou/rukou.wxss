@@ -1,0 +1,279 @@
+	/**本页全局配置的代码**/
+	.pageconfig {
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.flex1 {
+    width: 100%;
+}
+
+.notice2 {
+    width: 100%;
+}
+
+.morebox3 {
+    width: 100%;
+    height: 900rpx;
+    background-color: #ffffff;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    gap: 20rpx;
+}
+
+.flex4 {
+    width: 100%;
+    background-color: #fef6d4;
+    position: relative;
+}
+
+.text5 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex7 {
+    border: 2rpx solid #78573d;
+}
+
+.picture10 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex11 {
+    width: 100%;
+    background-color: #ecfdd8;
+    position: relative;
+}
+
+.text12 {
+    color: #4b6443;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex14 {
+    border: 2rpx solid #617858;
+}
+
+.picture17 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex18 {
+    width: 100%;
+    background-color: #fae2d7;
+    position: relative;
+}
+
+.text19 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex21 {
+    border: 2rpx solid #78573d;
+}
+
+.picture24 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex25 {
+    width: 100%;
+    background-color: #d3f3fd;
+    position: relative;
+}
+
+.text26 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex28 {
+    border: 2rpx solid #78573d;
+}
+
+.picture31 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex32 {
+    width: 100%;
+    background-color: #fef6d4;
+    position: relative;
+}
+
+.text33 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex35 {
+    border: 2rpx solid #78573d;
+}
+
+.picture38 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex39 {
+    width: 100%;
+    background-color: #fef6d4;
+    position: relative;
+}
+
+.text40 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex42 {
+    border: 2rpx solid #78573d;
+}
+
+.picture45 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex46 {
+    width: 100%;
+    background-color: #fef6d4;
+    position: relative;
+}
+
+.text47 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex49 {
+    border: 2rpx solid #78573d;
+}
+
+.picture52 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex53 {
+    width: 100%;
+    background-color: #fef6d4;
+    position: relative;
+}
+
+.text54 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex56 {
+    border: 2rpx solid #78573d;
+}
+
+.picture59 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex60 {
+    width: 100%;
+    background-color: #fae2d7;
+    position: relative;
+}
+
+.text61 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex63 {
+    border: 2rpx solid #78573d;
+}
+
+.picture66 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.flex67 {
+    width: 100%;
+    background-color: #d3f3fd;
+    position: relative;
+}
+
+.text68 {
+    color: #714f36;
+    margin-top: 0rpx;
+    margin-bottom: 20rpx;
+}
+
+.flex70 {
+    border: 2rpx solid #78573d;
+}
+
+.picture73 {
+    width: 102rpx;
+    overflow: hidden;
+    height: 102rpx;
+    position: absolute;
+    bottom: 0rpx;
+    right: 4rpx;
+}
+
+.dibubtn74 {
+    width: 100%;
+}

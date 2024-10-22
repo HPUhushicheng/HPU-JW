@@ -1,0 +1,141 @@
+	
+	/**本页全局配置的代码**/
+.pageconfig 
+{
+		width:  100%;
+		overflow:  hidden;
+		overflow-y:  scroll;
+		background-color: #ffffff;
+height: 100vh;}.flex1  
+{
+		width: 100%;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.form2 
+{
+		width: 100%;
+}.flex3  
+{
+		width: 100%;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.flex4  
+{
+		width: 100%;
+		margin-top: 56rpx;
+		margin-bottom: 142rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.picture5 
+{
+		width: 160rpx;
+		height: 160rpx;
+}.flex6  
+{
+		width: 100%;
+		margin-top: 0rpx;
+		margin-bottom: 10rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+}.text7  
+{
+		z-index: 33;
+}.flex8  
+{
+		width: 100%;
+		margin-top: 0rpx;
+		margin-bottom: 30rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+		border-bottom: 2rpx solid rgba(242,242,242,1);
+}.tubiao9  
+{
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 18rpx;
+		margin-right: 0rpx;
+}.input10 
+{
+		width: 83%;
+		min-height: 2rpx;
+}.flex11  
+{
+		width: 100%;
+		margin-top: 0rpx;
+		margin-bottom: 30rpx;
+		margin-left: 0rpx;
+		margin-right: 0rpx;
+		padding-top: 10rpx;
+		padding-bottom: 10rpx;
+		padding-left: 10rpx;
+		padding-right: 10rpx;
+		border-bottom: 2rpx solid rgba(242,242,242,1);
+}.tubiao12  
+{
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		margin-left: 18rpx;
+		margin-right: 0rpx;
+}.input13 
+{
+		width: 61%;
+		flex:1;
+		min-height: 2rpx;
+}.text14  
+{
+		margin-left: 2rpx;
+		margin-right: 16rpx;
+}.text15  
+{
+		margin-left: 2rpx;
+		margin-right: 16rpx;
+}.flex16  
+{
+		width: 100%;
+}.tubiao18  
+{
+		margin-right: 16rpx;
+}.tubiao19  
+{
+		color: #116bbc;
+		margin-right: 16rpx;
+}.flex20  
+{
+		width: 86%;
+}.flex21  
+{
+		width: 100%;
+}.flex22  
+{
+		font-size: 22rpx;
+		color: #8e8e8e;
+}.text24  
+{
+		color: #116bbc;
+}.text26  
+{
+		color: #116bbc;
+}.onebutton27  
+{
+		width: 100%;
+		font-size: 34rpx;
+		color: #ffffff;
+		margin-top: 12rpx;
+		margin-bottom: 34rpx;
+}
